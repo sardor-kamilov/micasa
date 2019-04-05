@@ -1,0 +1,34 @@
+.micasa_logo {
+    width: 65px;
+    height: auto;
+    display: none;
+}
+
+footer {
+    padding-bottom: 30px !important;
+}
+
+
+@media (max-width:767px) {
+    .log{
+        width:300px!important;      
+      }
+}
+
+.circle:hover {
+    border: 2px #dbab83 solid;
+  }
+
+.colors-h .background-20,
+.colors-h.background-20 {
+    background-color: rgba(15, 14, 14, .2) !important;
+}
+
+
+.hover-overlay:hover img {
+    transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+}
