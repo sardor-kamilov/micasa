@@ -1,3 +1,4 @@
+
 h2 {
     font-size: 50px;
 }
@@ -40,4 +41,16 @@ footer {
 .show-list .slogan {
     padding-bottom: 50px !important;
     padding-top: 50px !important;
+}
+
+#numb {
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 16px !important;
+    position: relative;
+    margin-left: 30px;
+    top: 9.6px;
+    border: rgba(231, 188, 131, 0.748) solid 1.5px;
+    padding: 8px 14px;
+    opacity: 0.9;
 }

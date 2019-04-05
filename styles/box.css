@@ -26,6 +26,7 @@
     .box16 .post, .box16 .title {
         transform: translateY(80px);
         font-size: 12px;
+        line-height: 20px;
     }
 
     .box16 .post {
@@ -46,6 +47,19 @@
         bottom: 0;
         z-index: 1;
     }
+    
+    .micasa-style {
+        height: 170px;
+    }
+
+    .circle {
+        display: inline-block;
+        text-align: center;
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        font-size: 24px;
+
 }
 
 
@@ -54,6 +68,7 @@
     .box16 .post, .box16 .title {
         transform: translateY(50px);
         font-size: 10px;
+        line-height: 20px;
     }
 
     .box16 .post {

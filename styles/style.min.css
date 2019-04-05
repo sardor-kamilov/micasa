@@ -3785,7 +3785,7 @@ ul.simple li:before {
 
 .view>.content {
     position: relative;
-    padding-top: 60px;
+    padding-top: 20px;
     padding-bottom: 50px;
     -webkit-transition: -webkit-transform .5s;
     -moz-transition: -moz-transform .5s;
