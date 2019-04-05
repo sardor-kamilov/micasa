@@ -1,3 +1,7 @@
+h2 {
+    font-size: 50px;
+}
+
 .micasa_logo {
     width: 65px;
     height: auto;
@@ -31,4 +35,9 @@ footer {
     -moz-transform: scale(1.2,1.2);
     -ms-transform: scale(1.2,1.2);
     -o-transform: scale(1.2,1.2);
+}
+
+.show-list .slogan {
+    padding-bottom: 50px !important;
+    padding-top: 50px !important;
 }
