@@ -13,9 +13,6 @@ footer {
     padding-bottom: 30px !important;
 }
 
-
-
-
 @media (max-width:767px) {
     .log{
         width:300px!important;      
@@ -55,4 +52,77 @@ footer {
     border: rgba(231, 188, 131, 0.748) solid 1.5px;
     padding: 8px 14px;
     opacity: 0.9;
+}
+
+.photo {
+    width: 100%;
+    text-align: center;
+}
+
+.middle {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.middle i {
+    line-height: 70px;
+    font-size: 28px;
+    transition: 0.2s linear;
+    color: #DBAB83;
+}
+
+.middle:hover i{
+    transform: scale(1.3);
+    color: #fff;
+}
+
+.middle::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #DBAB83;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+.middle:hover::before {
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+
+@keyframes aaa {
+    0% {
+    left: -110%;
+    top: 90%;
+    }50%{
+    left: 10%;
+    top: -30%;
+    }100%{
+    top: -10%;
+    left: -10%;
+        }
+    }
+
+@media only screen and (max-width: 768px) {
+    .middle {
+        width: 50px;
+        height: 50px;
+    }
+
+    .middle i {
+        line-height: 50px;
+        font-size: 20px;
+        transition: 0.2s linear;
+        color: #DBAB83;
+    }
 }

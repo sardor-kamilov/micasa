@@ -5975,10 +5975,11 @@ a.colors-g:hover {
 .colors-g .bottom-menu a:hover i {
     color: #dbab83
 }
-
+/*
 footer.colors-g a i:hover {
     color: #afafaf !important
 }
+*/
 
 .colors-g .main-icon,
 .colors-g .main-icon:hover {

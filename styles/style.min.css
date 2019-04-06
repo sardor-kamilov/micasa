@@ -1391,9 +1391,17 @@ body {
 .carousel>div img,
 .slider>div img {
     width: 100%;
-    height: auto
+    height: auto;
 }
 
+.slick-next {
+    visibility: hidden;
+}
+
+.slick-prev {
+    visibility: hidden;
+}
+/*
 .carousel .slick-next,
 .carousel .slick-prev,
 .slider .slick-next,
@@ -1442,14 +1450,15 @@ body {
     border-radius: 5px 0 0 5px
 }
 
-.carousel .slick-next:before,
+/* .carousel .slick-next:before,
 .slider .slick-next:before {
     content: "\f105"
 }
+*/
 
 .carousel .title,
 .slider .title {
-    font-size: 22px;
+    font-size: 0px;
     margin-top: 4px
 }
 
