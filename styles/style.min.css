@@ -1815,7 +1815,7 @@ body {
 }
 
 .loader {
-    position: fixed;
+    position: absolute;
     left: 50%;
     top: 50%;
     margin-top: -30px;
@@ -2868,7 +2868,9 @@ html.mobile video.bg {
 .process .process-row .process-step {
     text-align: center;
     position: relative;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    height: 300px;
+
 }
 
 .process .process-row .process-step p {

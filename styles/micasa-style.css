@@ -1,3 +1,11 @@
+.log {
+    opacity: 1; 
+    width: 600px; 
+    height: auto; 
+    margin-bottom: 80px; 
+    display: inline-block;
+    animation: 8s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s 1 normal both running text-focus-in;
+}
 
 h2 {
     font-size: 50px;
@@ -55,14 +63,15 @@ footer {
 }
 
 .photo {
+    margin-top: 50px;
     width: 100%;
     text-align: center;
 }
 
 .middle {
     display: inline-block;
-    width: 70px;
-    height: 70px;
+    width: 55px;
+    height: 55px;
     background: #f1f1f1;
     margin: 10px;
     border-radius: 30%;
@@ -72,7 +81,7 @@ footer {
 }
 
 .middle i {
-    line-height: 70px;
+    line-height: 55px;
     font-size: 28px;
     transition: 0.2s linear;
     color: #DBAB83;
@@ -121,8 +130,15 @@ footer {
 
     .middle i {
         line-height: 50px;
-        font-size: 20px;
+        font-size: 22px;
         transition: 0.2s linear;
         color: #DBAB83;
     }
 }
+
+
+
+
+/*  ---------------------------  */
+
+
