@@ -11,14 +11,14 @@ module.exports = function($context, isRemoved){
 		var $this = $(this)
 		$this.slick({
 			autoplay: true,
-			dots: true
+			dots: false,
 		});
 	});
 	$context.find(".carousel").each(function(){
 		var $this = $(this)
 		$this.slick({
 			autoplay: false,
-			dots: true,
+			dots: false,
 			infinite: true,
 			slidesToShow: 3,
 			slidesToScroll: 3,
@@ -26,7 +26,7 @@ module.exports = function($context, isRemoved){
 				{
 					breakpoint: 1000,
 					settings: {
-						dots: true,
+						dots: false,
 						slidesToShow: 2,
 						slidesToScroll: 2
 					}
@@ -34,7 +34,7 @@ module.exports = function($context, isRemoved){
 				{
 					breakpoint: 480,
 					settings: {
-						dots: true,
+						dots: false,
 						slidesToShow: 1,
 						slidesToScroll: 1
 					}

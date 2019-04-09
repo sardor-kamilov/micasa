@@ -648,6 +648,10 @@ textarea {
     top: 50%;
     left: 0;
     -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
     padding-left: 0;
     list-style: none
 }
@@ -1143,7 +1147,8 @@ body {
 }
 
 .overlay-window .loaded-content.show {
-    opacity: 1
+    opacity: 1;
+    padding: 0;
 }
 
 .overlay-window .content-container {
@@ -1193,7 +1198,7 @@ body {
 .cross:before {
     content: '';
     width: 100%;
-    position: absolute;
+    position: absolute;    
     background-color: #fff;
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
@@ -3917,7 +3922,7 @@ body>footer .footer-description {
 }
 
 body>footer .photo {
-    margin: 10px -3px
+    /*margin: 10px -3px*/
 }
 
 body>footer .photo>div {

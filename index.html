@@ -21,6 +21,8 @@
 	<link rel="stylesheet" href="styles/micasa-style.css">
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" href="styles/box.css">
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<script src="map.js"></script>
 	<!--<link rel="apple-touch-icon" href="apple-touch-icon.png" />
 		<link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png" />
 		<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png" />
@@ -71,19 +73,14 @@
 	<!-- END: Top menu -->
 	<ul id="dot-scroll" class="colors-e background-solid"></ul>
 	<div class="overlay-window gallery-overlay colors-g background-95-g" data-overlay-zoom="#work .content">
-		<div class="overlay-control background-90-b">
-			<a class="previos" href="#"></a>
-			<a class="next" href="#"></a>
+		<div class="overlay-control background-90-b container">
+			<!--<a class="previos" href="#"></a>
+			<a class="next" href="#"></a>-->
 			<a class="cross" href="#"></a>
 		</div>
 		<div class="overlay-view"></div>
 		<ul class="loader">
-			
-
-
-
 			<img style="width:500px; height:auto;" src="images/Loader2.gif" alt="Micasa loader">
-			<!--<img style="width:500px; height:auto;" src="images/Loader2.gif" alt="Micasa loader">-->		
 		</ul>
 	</div>
 
@@ -102,15 +99,15 @@
 	<!-- BEGIN: Page content -->
 	<section id="home">
 		<div class="view">
-			<img alt class="bg" src="images/placeholders/bedroom02_View02.jpg" /><img alt class="bg"
+			<img alt class="bg" src="images/placeholders/Scene_01_View02.jpg" /><img alt class="bg"
 				src="images/placeholders/class_1.jpg" /><img alt class="bg"
-				src="images/placeholders/Scene_01_View02.jpg" /><img alt class="bg"
+				src="images/placeholders/scene5_2_small.jpg" /><img alt class="bg"
 				src="images/placeholders/Scene_04.jpg" />
 			<div class="content home-lucy full-size colors-c background-20">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 text-center " data-animation="fadeInUp">
-							<img class="text-center log "  src="images/placeholders/logo_white.png" alt="">
+							<img class="text-center log " src="images/placeholders/logo_white.png" alt="">
 						</div>
 					</div>
 				</div>
@@ -366,8 +363,6 @@
 	</section>
 	<!--END TEAM-->
 	<div class="view">
-
-		</section>
 		<section id="work">
 			<div class="view">
 				<div class="content no-bottom-padding colors-e background-solid">
@@ -407,7 +402,7 @@
 									</div>
 									<div class="item col-md-3 col-sm-4 col-xs-6"
 										data-groups='["photography", "design"]'>
-										<a href="#!portfolio-item-3.html" class="hover-overlay">
+										<a href="#!portfolio-item-5.html" class="hover-overlay">
 											<img alt="Project 3" src="images/portfolio/project-5/005.jpg" />
 										</a>
 									</div>
@@ -438,7 +433,7 @@
 
 									<div class="item col-md-3 col-sm-4 col-xs-6"
 										data-groups='["photography", "design"]'>
-										<a href="#!portfolio-item-3.html" class="hover-overlay">
+										<a href="#!portfolio-item-10.html" class="hover-overlay">
 											<img alt="Project 3" src="images/portfolio/project-10/010.jpg" />
 										</a>
 									</div>
@@ -597,10 +592,16 @@
 					</div>
 				</div>
 			</div>
+		</section>
 	</div>
-	</section>
+	
 	<!-- END: Page content -->
 	<!-- BEGIN: Footer -->
+	
+
+	</div>
+
+
 	<footer class="colors-g page-transition non-preloading">
 		<div class="container scroll-in-animation" data-animation="fadeInUp">
 			<div class="row">
@@ -612,27 +613,27 @@
 						- Ваш Успех</h4>
 				</div>
 				<div class="col-md-6">
-					
-					<div class="photo">	
-							<h5 style="text-align:center">НАШИ СОЦИАЛЬНЫЕ СЕТИ</h5>						
-							<a class="middle" href="https://www.facebook.com/iskander.mukhamedov" target="_blanc">
-								<i class="fa fa-facebook"></i>
-							</a>
+
+					<div class="photo">
+						<h5 style="text-align:center">НАШИ СОЦИАЛЬНЫЕ СЕТИ</h5>
+						<a class="middle" href="https://www.facebook.com/iskander.mukhamedov" target="_blanc">
+							<i class="fa fa-facebook"></i>
+						</a>
 
 
-							<a class="middle" href="https://www.facebook.com/iskander.mukhamedov" target="_blanc">
-								<i class="fa fa-instagram"></i>
-							</a>
-
-	
-							<a class="middle" href="https://www.facebook.com/iskander.mukhamedov" target="_blanc">
-								<i class="fa fa-facebook"></i>
-							</a>
+						<a class="middle" href="https://www.facebook.com/iskander.mukhamedov" target="_blanc">
+							<i class="fa fa-instagram"></i>
+						</a>
 
 
-							<a class="middle" href="https://www.facebook.com/iskander.mukhamedov" target="_blanc">
-									<i class="fa fa-linkedin"></i>
-							</a>
+						<a class="middle" href="https://t.me/micasacompany" target="_blanc">
+							<i class="fa fa-paper-plane"></i>
+						</a>
+
+
+						<a class="middle" href="https://www.facebook.com/iskander.mukhamedov" target="_blanc">
+							<i class="fa fa-linkedin"></i>
+						</a>
 
 					</div>
 				</div>
@@ -642,6 +643,7 @@
 			</div>
 		</div>
 
+		<div class="ymaps-layers-pane" id="map"></div>
 	</footer>
 	<!-- END: Footer -->
 	<script>

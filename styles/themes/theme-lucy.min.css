@@ -1678,11 +1678,11 @@ footer.colors-b.border-top {
 .background-85-b {
     background-color: rgba(71, 67, 64, .85) !important
 }
-
+/*
 .background-90-b {
     background-color: rgba(71, 67, 64, .9) !important
 }
-
+*/
 .background-95-b {
     background-color: rgba(71, 67, 64, .95) !important
 }
@@ -5753,7 +5753,7 @@ a.colors-g:hover {
 
 .colors-g .cross:after,
 .colors-g .cross:before {
-    background-color: #fff
+    background-color: #DBAB83
 }
 
 .colors-g.circle {
