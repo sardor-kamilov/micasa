@@ -24,11 +24,11 @@
 // https://www.openshift.com/) all these features are available. 
 // =============================================================================
 
-require_once "Mail.php";
+require_once "contact.php";
 // Change this options:
-$username = 'user@gmail.com';
-$password = 'password';
-$smtpHost = 'ssl://smtp.gmail.com';
+$username = 'info@micasa.uz';
+$password = 'micasa777';
+$smtpHost = 'ssl';
 $smtpPort = '465';
 $to = 'user@gmail.com';
 $from = 'user@gmail.com';
