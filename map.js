@@ -3,7 +3,7 @@ ymaps.ready(function () {
     var myMap = new ymaps.Map('map', {
         center: [41.29892216957555, 69.27835438621737],
         controls: ['fullscreenControl'],
-        zoom: 17
+        zoom: 18
     });
     myMap.controls.add('zoomControl', {
         size: "small",
