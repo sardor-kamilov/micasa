@@ -26,6 +26,10 @@ h2 {
     padding-top: 50px;
 }
 
+input, textarea{
+    font-size: 14px;
+}
+
 footer {
     padding-bottom: 30px !important;
 }
@@ -34,7 +38,7 @@ footer {
     .log{
         width:300px!important;      
       }
-}
+} 
 
 .circle:hover {
     border: 2px #dbab83 solid;
@@ -131,6 +135,16 @@ footer {
         }
     }
 
+.micasa-nav {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+    .micasa-nav {
+        font-size: 12px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .middle {
         width: 50px;
@@ -144,7 +158,6 @@ footer {
         color: #DBAB83;
     }
 }
-
 
 
 
