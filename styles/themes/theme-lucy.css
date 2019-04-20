@@ -6072,6 +6072,7 @@ footer.colors-h.border-top {
 /*==================================================================
 10. Scroll Bars
 ==================================================================*/
+
 body,
 html {
   -ms-overflow-style: scrollbar;
@@ -6256,6 +6257,7 @@ pre::-webkit-scrollbar-thumb,
 .scroll-b::-webkit-scrollbar-thumb {
   border: 1px solid;
 }
+/*
 .ie-scroll-a {
   scrollbar-face-color: #4d3824;
   scrollbar-track-color: #141414;
