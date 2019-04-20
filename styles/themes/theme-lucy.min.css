@@ -7103,9 +7103,9 @@ footer.colors-h.border-top {
 
 body,
 html {
-    -ms-overflow-style: scrollbar
+    overflow: hidden;
 }
-
+/*
 body::-webkit-scrollbar-track,
 html::-webkit-scrollbar-track {
     background-color: #141414;

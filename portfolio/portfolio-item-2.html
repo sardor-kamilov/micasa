@@ -1,81 +1,376 @@
 <!DOCTYPE html>
 <html class="background-100-e">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Micasa</title>
-		<meta name="description" content="MICASA - это коллектив по-настоящему творческих людей и, самое главное, профи в сфере архитектурного проектирования и дизайна. Для нас нет слишком смелых фантазий  - мы можем реализовать практически всё, что вы задумали" />
-		<meta name="keywords" content="design, architecture, interior, 3dsmax, дизайн, архитектура, интерьер" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css" />
-		<link rel="stylesheet" href="bower_components/animate.css/animate.min.css" />
-		<link rel="stylesheet" href="bower_components/minicolors/jquery.minicolors.css" />
-		<link rel="stylesheet" href="bower_components/slick.js/slick/slick.css" />
-		<link rel="stylesheet" href="bower_components/slick.js/slick/slick-theme.css" />
-		<link rel="stylesheet" href="bootstrap/dist/css/bootstrap-custom.min.css" />
-		<link rel="stylesheet" href="lib/linecons/style.css" />
-		<link rel="stylesheet" href="styles/style.min.css" />
-		<link rel="stylesheet" href="theme-custom.css" />
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Page content -->
-		<section>
-			<div class="view gallery-page">
-				<div class="content">
-					<div class="view-wrapper">
-						<div class="view">
-							<div class="item-content">
-								<div class="container">									
-									<div class="row">
-										<div class="col-md-12">
-											<div class="slider">
-												<div><img alt="Slide 1" src="images/portfolio/project-2/001 (2).jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/002 (1).jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/002.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/003.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/004.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/005.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/007.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/008.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/013.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/014.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/015.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/017.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/018.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/019.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/020.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/021.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/022.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/023.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/024.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/026.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/027.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/028.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/030.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/035.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/036.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/038.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/039.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/040.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/043.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/046.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/047.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/048.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/049.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/050.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/051.jpg" /></div>
-												<div><img alt="Slide 1" src="images/portfolio/project-2/054.jpg" /></div>
-											</div>
-										</div>
-										
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Micasa</title>
+	<meta name="description"
+		content="MICASA - это коллектив по-настоящему творческих людей и, самое главное, профи в сфере архитектурного проектирования и дизайна. Для нас нет слишком смелых фантазий  - мы можем реализовать практически всё, что вы задумали" />
+	<meta name="keywords" content="design, architecture, interior, 3dsmax, дизайн, архитектура, интерьер" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="state1 background-100-e">
+	<!-- BEGIN: Page content -->
+	<section>
+		<div class="item-content">
+			<div class="container">
+				<div id="mdb-lightbox-ui"></div>
+				<div data-v-39c81553 data-v-567229ec class="gallery mdb-lightbox no-margin">
+					<div data-v-39c81553 class="gallery__container type_1 ">
+						<div data-v-39c81553 data-aos-delay="500" class="gallery__item aos-animate"
+							style="background-image: url('images/portfolio/project-2/1.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/2.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/3.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/4.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_2">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/6.jpg')">
+						</div>
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/7.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_2">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/8.jpg')">
+						</div>
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/9.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_2">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/10.jpg')">
+						</div>
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/11.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/12.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/13.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/14.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/15.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/16.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_2">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/17.jpg')">
+						</div>
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/18.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/19.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/20.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/21.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/22.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_2">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/23.jpg')">
+						</div>
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/24.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_2">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/25.jpg')">
+						</div>
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/26.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_2">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/27.jpg')">
+						</div>
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/28.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/29.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/30.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/31.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/32.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/33.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/34.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/35.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/36.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/37.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/38.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_2">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/39.jpg')">
+						</div>
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/40.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_2">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/41.jpg')">
+						</div>
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/42.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/43.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/44.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/45.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/46.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/47.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/48.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_1">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/49.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_2">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/50.jpg')">
+						</div>
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/51.jpg')">
+						</div>
+					</div>
+					<div data-v-39c81553 class="gallery__container type_2">
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/52.jpg')">
+						</div>
+						<div data-v-39c81553 data-aos="fade-up" data-aos-delay="500"
+							class="gallery__item aos-init aos-animate"
+							style="background-image: url('images/portfolio/project-2/53.jpg')">
+						</div>
+					</div>
+					<h3 class="highlight" style="text-align: center"><span style="color: #efefef;">О</span> проекте</h3>
+					<div class="row">
+						<div class="col-md-4 col-xl-4 col-sm-4">
+							<div class="card border-primary mb-3">
+								<div class="card border-light mb-3">
+									<div class="card-body" style="text-align:center">
+										<img src="../images/icon-1.png" alt="">
+										<h5 class="card-title">Площадь помещения:</h5>
+										<h5 class="card-text"
+											style="font-family: 'Roboto', sans-serif; font-weight: 600;"><span
+												class="highlight">115,40 м²</span></h5>
 									</div>
 								</div>
 							</div>
 						</div>
+						<div class="col-md-4 col-xl-4 col-sm-4">
+							<div class="card border-primary mb-3">
+								<div class="card border-light mb-3">
+									<div class="card-body" style="text-align:center">
+										<img src="../images/icon-2.png" alt="">
+										<h5 class="card-title">Назначение:</h5>
+										<h5 class="card-text"><span class="highlight">Квартира</span></h5>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-xl-4 col-sm-4">
+							<div class="card border-primary mb-3">
+								<div class="card border-light mb-3">
+									<div class="card-body" style="text-align:center">
+										<img src="../images/icon-3.png" alt="">
+										<h5 class="card-title">Расположение:</h5>
+										<h5 class="card-text"><span class="highlight">ЖК Муфаррах</span></h5>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+					<div class="row">
+						<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+							<img style=" width: 100%;" src="../images/portfolio/project-1/51.png" alt=""
+								class="img-fluid">
+						</div>
+						<div style="padding-top: 20px;" class="col-lg-3 col-md-3 col-sm-12 col-xs-12 highlight">
+							<p style="font-family: 'Roboto', sans-serif; font-weight: 600;">
+								<span style="color: #efefef;">1.</span> Холл / Гостиная: 48,9&nbsp;м²<br>
+								<span style="color: #efefef;">2.</span> Кухня: 12,5&nbsp;м²<br>
+								<span style="color: #efefef;">3.</span> Спальня: 18,2&nbsp;м²<br>
+								<span style="color: #efefef;">4.</span> Спальня / Гардеробная: 11,7&nbsp;м²<br>
+								<span style="color: #efefef;">5.</span> Кабинет: 18,2&nbsp;м²<br>
+								<span style="color: #efefef;">6.</span> Санузел: 1,7&nbsp;м²<br>
+								<span style="color: #efefef;">7.</span> Ванная: 4,2&nbsp;м²<br>
+							</p>
+							<p style="font-family: 'Roboto', sans-serif; font-weight: 600;">Общая
+								площадь:
+								<span style="color: #efefef;">115,40&nbsp;м²</span></p>
+						</div>
 					</div>
 				</div>
 			</div>
-		</section>
-		<!-- END: Page content -->
-	</body>
+		</div>
+	</section>
+</body>
+
 </html>
