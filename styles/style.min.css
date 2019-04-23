@@ -1820,7 +1820,7 @@ body {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%)
 }
-
+/*
 .loader {
     position: absolute;
     left: 50%;
@@ -1842,12 +1842,12 @@ body {
     -o-transition: all 1s;
     transition: all 1s
 }
-
+*/
 .android-browser-4_3minus .loader {
     transition: none;
     -webkit-transition: none
 }
-
+/*
 .loader li {
     background-color: #fff;
     width: 10px;
@@ -1995,7 +1995,7 @@ body {
     animation: none;
     -webkit-animation: none
 }
-
+*/
 .map-open {
     font-size: 13px
 }
