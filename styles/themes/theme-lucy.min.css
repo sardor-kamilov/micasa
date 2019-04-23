@@ -7105,7 +7105,7 @@ body,
 html {
     overflow: hidden;
 }
-/*
+
 body::-webkit-scrollbar-track,
 html::-webkit-scrollbar-track {
     background-color: #141414;
