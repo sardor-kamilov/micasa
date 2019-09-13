@@ -5,6 +5,8 @@
     float: left;
     /*padding: 0 112px;*/
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .gallery[data-v-39c81553]:after {

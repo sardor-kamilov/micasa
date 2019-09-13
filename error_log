@@ -1,0 +1,6 @@
+[16-Aug-2019 01:01:30 Asia/Tashkent] PHP Notice:  Undefined index: user_name in /home/micasauz/public_html/mail.php on line 7
+[16-Aug-2019 01:01:30 Asia/Tashkent] PHP Notice:  Undefined index: user_email in /home/micasauz/public_html/mail.php on line 8
+[16-Aug-2019 01:01:30 Asia/Tashkent] PHP Notice:  Undefined index: user_message in /home/micasauz/public_html/mail.php on line 9
+[25-Aug-2019 11:28:23 Asia/Tashkent] PHP Notice:  Undefined index: user_name in /home/micasauz/public_html/mail.php on line 7
+[25-Aug-2019 11:28:23 Asia/Tashkent] PHP Notice:  Undefined index: user_email in /home/micasauz/public_html/mail.php on line 8
+[25-Aug-2019 11:28:23 Asia/Tashkent] PHP Notice:  Undefined index: user_message in /home/micasauz/public_html/mail.php on line 9

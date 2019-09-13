@@ -1524,7 +1524,7 @@ body {
     font-weight: 600
 }
 
-/*
+
 
 .scroll-animation,
 .scroll-in-animation {
@@ -1601,7 +1601,7 @@ body {
 .scroll-in-animation.css-animation-show {
     opacity: 1
 }
-*/
+
 @-webkit-keyframes zoomInSmall {
     0% {
         opacity: 0;

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 /*  Loader */
 @keyframes load {
     0% {
@@ -15,6 +17,10 @@
     }
 }
 
+.gallery {
+    scroll-behavior: smooth;
+}
+
 .animate {
     display: flex;
     justify-content: center;
@@ -25,6 +31,46 @@
     animation: load infinite 0.9s ease-in-out;
     animation-direction: alternate;
     text-shadow: 0 0 1px white;
+}
+
+.loader img {
+    width: 600px;
+    height: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    .loader img {
+        width: 600px;
+        height: auto;
+    }
+    .gate img {
+        top: 51.5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .loader img {
+        width: 600px;
+    }
+    .gate img {
+        top: 51%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .loader img {
+        width: 300px;
+    }
+    .gate img {
+        top: 51%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .gate img {
+        top: 51%;
+        left: 51% !important;
+    }
 }
 
 
@@ -52,6 +98,7 @@ h2 {
     height: auto;
     display: none;
 }
+
 
 .micasa-contact {
     padding-top: 50px;
@@ -179,6 +226,7 @@ footer {
     .micasa-nav {
         font-size: 12px;
     }
+    
 }
 
 @media only screen and (max-width: 768px) {
@@ -195,6 +243,168 @@ footer {
     }
 }
 
+/*--------TEAM---------*/
+
+.quote {
+    position: relative;
+    top: 70px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-style: italic;
+    padding-left: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+/*--------PORTFOLIO---------*/
+.humo_text {
+    /*padding: 110px;*/
+    text-align: center;
+}
+
+.humo_letter p {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.humo_logo {
+    padding-top: 90px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .humo_text {
+        padding: 5px !important;
+    }
+
+    .humo_logo {
+        padding-top: 40px;
+    }
+
+    .humo_letter p {
+        padding-top: 15px;
+        font-size: 30px;
+        line-height: 2;
+    }
+
+    .humo_logo img {
+        width: 80px !important;
+    }
+
+    /*--------TEAM---------*/
+
+    .quote {
+        position: relative;
+        top: 65px;
+        font-size: 18px;
+        line-height: 1.2;
+        font-style: italic;
+        padding-left: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+}
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .humo_text h3{
+        font-size: 22px;
+    }
+    
+    .humo_text p{
+        padding-left: 20px; 
+        margin: 0px;
+        font-size: 10px;
+    }  
+}
+
+@media only screen and (max-width: 768px) {
+    .humo_text h3{
+        margin: 0px;
+        font-size: 18px;
+    }
+    
+    .humo_text p{
+        padding-left: 20px; 
+        margin: 0px;
+        font-size: 8px;
+        line-height: 14px;
+    }  
+
+    .humo_logo {
+        padding-top: 40px;
+    }
+
+    .humo_letter p {
+        padding-top: 10px;
+        font-size: 24px;
+        line-height: 2;
+    }
+
+    .humo_logo img {
+        width: 50px !important;
+    }
+
+    /*--------TEAM---------*/
+
+    .quote {
+        text-align: left;
+        padding: 0;
+        position: relative;
+        top: 65px;
+        font-size: 18px;
+        line-height: 1.2;
+        font-style: italic;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+    }   
+}
+
+@media only screen and (max-width: 600px) {
+    .quote {
+        text-align: left;
+        padding: 10px;
+        top: 20px;
+        font-size: 16px;
+    }   
+}
+
+@media only screen and (max-width: 500px) {
+    .quote {
+        text-align: left;
+        padding: 5px;
+        top: 15px;
+        font-size: 14px;
+    }   
+}
+
+@media only screen and (max-width: 420px) {
+    .quote {
+        text-align: left;
+        padding: 5px;
+        padding-left: 0px;
+        font-size: 12px;
+    }   
+}
+
+@media only screen and (max-width: 375px) {
+    .quote {
+        text-align: left;
+        padding: 5px;
+        padding-left: 0px;
+        font-size: 10px;
+    }   
+}
+
+@media only screen and (max-width: 320px) {
+    .quote {
+        text-align: left;
+        padding: 5px;
+        padding-left: 0px;
+        font-size: 8px;
+    }   
+}
 
 
 
