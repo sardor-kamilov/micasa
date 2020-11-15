@@ -406,6 +406,86 @@ footer {
     }   
 }
 
+/*--------PORTFOLIO---------*/
+.humo_text {
+    /*padding: 110px;*/
+    text-align: center;
+}
+
+.humo_letter p {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.humo_logo {
+    padding-top: 90px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .humo_text {
+        padding: 5px !important;
+    }
+
+    .humo_logo {
+        padding-top: 40px;
+    }
+
+    .humo_letter p {
+        padding-top: 15px;
+        font-size: 30px;
+        line-height: 2;
+    }
+
+    .humo_logo img {
+        width: 80px !important;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .humo_text h3{
+        font-size: 22px;
+    }
+    
+    .humo_text p{
+        padding-left: 20px; 
+        margin: 0px;
+        font-size: 10px;
+    }  
+}
+
+@media only screen and (max-width: 768px) {
+    .humo_text h3{
+        margin: 0px;
+        font-size: 18px;
+    }
+    
+    .humo_text p{
+        padding-left: 20px; 
+        margin: 0px;
+        font-size: 8px;
+        line-height: 14px;
+    }  
+
+    .humo_logo {
+        padding-top: 40px;
+    }
+
+    .humo_letter p {
+        padding-top: 10px;
+        font-size: 24px;
+        line-height: 2;
+    }
+
+    .humo_logo img {
+        width: 50px !important;
+    }
+
+    
+}
+
 
 
 /*yandex map*/
